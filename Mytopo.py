@@ -43,7 +43,7 @@ def myNetwork():
     net.addLink(s1, s2)
     net.addLink(s2, s3)
 
-    info( '*** Starting network\n')
+    info( '**** Starting network\n')
     net.build()
     info( '*** Starting controllers\n')
     for controller in net.controllers:
