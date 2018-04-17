@@ -1,7 +1,7 @@
-1- Mininet Download:
-we need to connect to the web page: ìhttp://mininet.org/download/î and download the Mininet VM image. Then we need to download Virtual Box from this link ìhttps://www.virtualbox.org/wiki/Downloadsî
-2- Virtual Box configuration: we need to follow the link ìhttp://mininet.org/vm-setup-notes/î
-3- After finishing the installation, we need to open the mininet machine on the virtual box  with login and password: ìmininetî. Then enter the command ìifconfigî and get the ip address of the eth1
+1- Mininet Download :
+we need to connect to the web page: ‚Äúhttp://mininet.org/download/‚Äù and download the Mininet VM image. Then we need to download Virtual Box from this link ‚Äúhttps://www.virtualbox.org/wiki/Downloads‚Äù
+2- Virtual Box configuration: we need to follow the link ‚Äúhttp://mininet.org/vm-setup-notes/‚Äù
+3- After finishing the installation, we need to open the mininet machine on the virtual box  with login and password: ‚Äúmininet‚Äù. Then enter the command ‚Äúifconfig‚Äù and get the ip address of the eth1
 4- Open a new terminal and ssh to this address
 5- Copy the python script Mytopo.py in the directory mininet/mininet
 6- Create a directory under mininet/mininet for example project.
